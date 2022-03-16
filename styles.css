@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+}
+
+.content1 {
+    display: flex;
+    padding: 0 150px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 150px;
+    padding-top: 12px;
+    align-items: center;
+}
+
+.logo {
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;   
+    display: flex;
+}  
+
+
+ul {
+    display: flex;
+    gap: 25px; 
+    font-family: roboto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.hero {
+    font-family: roboto;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    
+}
+
+.subtext {
+    font-family: roboto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    font-family: roboto;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 900;
+    border-radius: 8px;
+    width: 150px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.lcontent {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+    flex: 1;
+    gap: 8px;
+}
+
+.rcontent {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.img {
+    font-family: roboto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 220px;
+    flex: 1;
+}
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: roboto;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 48px 0;
+}
+
+.box1, .box2, .box3, .box4 {
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 4px;
+    background-color: white;
+    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+}
+
+.text1, .text2, .text3, .text4 {
+    font-family: roboto;
+    text-align: center;
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
+    gap: 16px;
+}
+
+.group1, .group2, .group3, .group4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
