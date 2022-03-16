@@ -90,6 +90,7 @@ li {
     align-items: center;
     background-color: gray;
     height: 220px;
+    width: 440px;
     flex: 1;
 }
 
@@ -97,6 +98,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .title {
@@ -125,13 +127,44 @@ li {
 
 .boxes {
     display: flex;
-    justify-content: center;
-    padding: 0 200px;
-    gap: 16px;
+    justify-content: space-around;
+    padding: 0 600px;
+    padding-bottom: 75px;
+    gap: 24px
+    
 }
 
 .group1, .group2, .group3, .group4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.body3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 500px;
+}
+
+.textbody {
+    font-family: roboto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sig {
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.body4 {
+    display: flex;
 }
