@@ -167,4 +167,39 @@ li {
 
 .body4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0;
+}
+
+.banner {
+    font-family: roboto;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 4px;
+    padding: 50px 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.bannertext {
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+
+#bannersub {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.signup2 {
+    font-family: roboto;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 900;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 1px 24px;
 }
