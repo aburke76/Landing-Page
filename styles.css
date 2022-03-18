@@ -86,30 +86,30 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #362511;
 }
 
 .title {
     font-family: roboto;
-    color: #1F2937;
+    color: orange;
     font-size: 36px;
     font-weight: 900;
     padding: 48px 0;
 }
 
-.box1, .box2, .box3, .box4 {
-    border-style: solid;
-    border-color: #3882f6;
-    border-width: 4px;
-    background-color: white;
+#juice, #soup, #cake, #fitness {
     border-radius: 12px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .text1, .text2, .text3, .text4 {
     font-family: roboto;
     text-align: center;
     display: flex;
+    padding-top: 12px;
+    color: orange;
 }
 
 .boxes {
@@ -138,12 +138,13 @@ li {
     font-family: roboto;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #362511
 }
 
 .signature {
     display: flex;
     justify-content: flex-end;
+    color: #362511;
 }
 
 .sig {
@@ -155,19 +156,20 @@ li {
 
 .body4 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 75px 0;
+    background-color: orange;
 }
 
 .banner {
     font-family: roboto;
-    color: #f9faf8;
-    background-color: #3882f6;
-    border-radius: 4px;
+    color:#362511;
+    background-color: green;
+    border-radius: 15px;
     padding: 50px 100px;
     display: flex;
-    gap: 100px;
+    gap: 48px;
 }
 
 .bannertext {
@@ -183,14 +185,14 @@ li {
 
 .signup2 {
     font-family: roboto;
-    background-color: #3882f6;
-    color: #f9faf8;
+    background-color: orange;
+    color: green;
     font-weight: 900;
-    border-color: #f9faf8;
-    border-style: solid;
     border-radius: 8px;
-    padding: 1px 24px;
-    flex: 1;
+    width: 150px;
+    padding: 8px;
+    margin-top: 8px;
+    
 }
 
 footer {
