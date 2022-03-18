@@ -163,6 +163,7 @@ li {
     font-family: roboto;
     font-size: 24px;
     font-weight: 900;
+    text-align: right;
 }
 
 .body4 {
@@ -203,4 +204,12 @@ li {
     border-radius: 8px;
     padding: 1px 24px;
     flex: 1;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
