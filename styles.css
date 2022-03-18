@@ -6,27 +6,22 @@
 
 .content1 {
     display: flex;
-    padding: 0 150px;
-    background-color: #1F2937;
-    justify-content: space-between;
-    gap: 12px;
+    background-color: orange;
+    justify-content: space-around
+    
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
-    padding: 0 150px;
-    padding-top: 12px;
+    justify-content: center;
+    background-color: green;
+    padding: 12px 150px;
     align-items: center;
 }
 
-.logo {
-    font-family: roboto;
-    font-size: 24px;
-    font-weight: bolder;
-    color: #f9faf8;   
-    display: flex;
+#logo {
+    height: 100px;
+    width: auto;
 }  
 
 
@@ -35,7 +30,7 @@ ul {
     gap: 25px; 
     font-family: roboto;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #362511;
 }
 
 
@@ -47,20 +42,20 @@ li {
     font-family: roboto;
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #362511;
     
 }
 
 .subtext {
     font-family: roboto;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #362511
 }
 
 .signup {
     font-family: roboto;
-    background-color: #3882f6;
-    color: #e5e7eb;
+    background-color: green;
+    color: orange;
     font-weight: 900;
     border-radius: 8px;
     width: 150px;
@@ -72,26 +67,18 @@ li {
     display: flex;
     flex-direction: column;
     padding: 150px 0;
-    flex: 1;
     gap: 8px;
 }
 
-.rcontent {
+.farm {
     display: flex;
     align-items: center;
-    flex: 1;
 }
 
-.img {
-    font-family: roboto;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    height: 220px;
-    width: 440px;
-    flex: 1;
+#farm {
+    border-radius: 15px 50px;
+    height: 300px;
+    width: auto;
 }
 
 .body2 {
@@ -207,8 +194,8 @@ li {
 }
 
 footer {
-    background-color: #1F2937;
-    color: #e5e7eb;
+    background-color: green;
+    color: orange;
     display: flex;
     justify-content: center;
     padding: 25px;
